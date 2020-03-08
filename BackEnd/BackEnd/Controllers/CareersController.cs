@@ -26,6 +26,7 @@ namespace BackEnd.Controllers
         {
             return careerService.GetCareersByLocation(locationId);
         }
+        /** Uncomment if you want to add careers
         [HttpPost]
         public async Task<Career> Post([FromBody]Career career)
         {
@@ -42,5 +43,6 @@ namespace BackEnd.Controllers
         {
             return await careerService.DeactivateCareer(careerId);
         }
+        **/
     }
 }
