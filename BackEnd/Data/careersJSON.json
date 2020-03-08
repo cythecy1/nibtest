@@ -1,0 +1,83 @@
+[
+	{
+		"id": "031bf965-acee-453a-89cd-5f5070db1abf",
+		"title" : "Accountant/Financial Controller",
+		"roleDescription":"Use of Xero & Fathom accounting programmes and Assistance with Internal and external auditing",
+		"roleTags" : ["Microsoft","Excel","Accounting","Finance", "Xero"],
+		"skillsDescription":"Strong Financial Accounting skills and Experience in preparing budgets, cashflows and forecasts",
+		"benefitsDescription":"Competitive Salary and Free parking",
+		"locationId" : 1,
+		"active": true
+	},
+	{
+		"id": "2b9d0878-e72d-41a2-bb6e-b04307abb2b8",
+		"title" : "Customer Service Representative - Call Centre",
+		"roleDescription":"Include land rates enquiries, building consent bookings, taking service requests or providing general information",
+		"roleTags" : ["Microsoft","Office","Avaya", "Representative", "Customer"],
+		"skillsDescription":"Excellent communication skills and strong attention to detail",
+		"benefitsDescription":"The recruiting range for this role starts at $43,000 per annum pro rata",
+		"locationId" : 1,
+		"active": true
+	},
+	{
+		"id": "b9dcff76-15f3-4f17-a022-69606ca53cf3",
+		"title" : "Team Administrator",
+		"roleDescription":"Assist with the efficient operation of the Wellington office",
+		"roleTags" : ["Excel","Word","PowerPoint", "Administrator"],
+		"skillsDescription":"friendly, vibrant & collaborative team ",
+		"benefitsDescription":"Standard Benefits and additional maternity leave",
+		"locationId" : 2,
+		"active": true
+	},
+	{
+		"id": "f8c8f5ae-b7df-4558-afa9-c3b4d51a1244",
+		"title" : "Orchard Enthusiast",
+		"roleDescription":"Take care of 4000 hectre orchard",
+		"roleTags" : ["Pruning","Mowing","Fertilizing"],
+		"skillsDescription":"Must love orchards",
+		"benefitsDescription":"Will have the orchard for himself the whole year.  Health benefits gained through inhaling fresh oxygen from plants.",
+		"locationId" : 4,
+		"active": true
+	},
+	{
+		"id": "928591b0-e8e5-4d86-831b-41deb530b907",
+		"title" : "Batman Sidekick",
+		"roleDescription":"Be the Robin that Batman always wanted.  Not that Grayson guy who was incidentally a Dick.",
+		"roleTags" : ["Acrobatics","Save","Lives","Excel", "Word", "Powerpoint"],
+		"skillsDescription":"Preferably a gymnast.  Likes to fight crime and give justice to those in need.",
+		"benefitsDescription":"Access to the Batcave and gets to ride the Batmobile.",
+		"locationId" : 2,
+		"active":true
+	},
+	{
+		"id": "0f73404a-0cc5-42bd-97ce-355b8cb1df8d",
+		"title" : "Ap Builder",
+		"roleDescription":"By Ap I mean Apartment.  Will work on a construction of a site not a website.",
+		"roleTags" : ["Carpentry","Painting","Trades"],
+		"skillsDescription":"Must have at least 5 years experience in building construction.",
+		"benefitsDescription":"Increased lunch breaks from 10 mins to 12 mins.  Will have minimum pay and overtime... not pay just overtime.",
+		"locationId" : 6,
+		"active": true
+	},
+								{
+		"id": "b986e8ce-f577-4dc6-8d28-7d4e91ccc3dd",
+		"title" : "Travel Blogger",
+		"roleDescription":"Not really a career or a full time job.  Just write something about our really nice hotel.",
+		"roleTags" : ["Authoring","Creative","Writing", "Blog", "Blogger", ],
+		"skillsDescription":"Preferably will work for free.  Will be given 1 buffe... no 1 ala carte mea.. coffee per article.",
+		"benefitsDescription":"Make new friends.  Get to smile once in a while.",
+		"locationId" : 5,
+		"active" : true
+	},
+	{
+		"id": "204f0061-3b50-4a3b-8265-cd42e875eb48",
+		"title" : "Sensation Youtuber",
+		"roleDescription":"Create youtube videos which must be viral and have 1 Million Views in 2 Hours.",
+		"roleTags" : ["Youtube","Video","Editing"],
+		"skillsDescription":"Can be funny, weird or gross it depends on what people wants these days.",
+		"benefitsDescription":"Be famous.  Has a share of the youtube payment.  4 cents for every 20000 views.",
+		"locationId" : 6,
+		"active": true
+	}
+						
+]
