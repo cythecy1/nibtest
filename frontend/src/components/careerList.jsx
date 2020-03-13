@@ -1,18 +1,37 @@
 import React from "react";
 import CareerSummary from "./careerSummary";
+import CareerDetail from "./careerDetail";
 
 class CareerList extends React.Component {
   state = {
-    careers: ['career1', 'career2', 'career3', 'career4', 'career5']
-  };
+    showDetail : false
+  }
+  handleViewDetails = selectedCareer => {
+    this.setState({showDetail : true, career : selectedCareer});
+  }
+  
+  componentDidUpdate(prevProps) {
+    if(prevProps.selectedLocation !== this.props.selectedLocation) {
+      this.setState({showDetail : false});
+    }
+  }
+  handleBackToSummary = () => {
+    this.setState({showDetail : false});
+  }
+
   render() {
+    const showDetail = this.state.showDetail;
     return (
       <>
-        <div className="container">
-          <div className="row">
-            { this.state.careers.map(career => <CareerSummary key={career}/>)}
+      {showDetail
+        ? <CareerDetail career={this.state.career} onBackToSummary={this.handleBackToSummary}/>
+        : <div className="container">
+            <div className="row">
+              { this.props.careers && this.props.careers.map(career => <CareerSummary key={career.id} career={career} onViewDetails={this.handleViewDetails}/>)}
+            </div>
           </div>
-        </div>
+      }
+
       </>
     );
   }

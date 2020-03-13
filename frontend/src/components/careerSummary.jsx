@@ -2,17 +2,15 @@ import React from "react";
 
 class CareerSummary extends React.Component {
   render() {
+    const roleDesc = this.props.career.roleDescription.substring(0, 130);
     return (
       <div className="col-md-4">
-        <h2>Heading</h2>
+        <h2>{this.props.career.title}</h2>
         <p>
-          Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
-          tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-          massa justo sit amet risus. Etiam porta sem malesuada magna mollis
-          euismod. Donec sed odio dui.{" "}
+          {roleDesc}
         </p>
         <p>
-          <a className="btn btn-secondary" href="#" role="button">
+          <a className="btn btn-secondary" href="#" role="button" onClick={() => this.props.onViewDetails(this.props.career)}>
             View details &raquo;
           </a>
         </p>

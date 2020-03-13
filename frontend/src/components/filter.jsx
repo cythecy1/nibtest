@@ -1,19 +1,7 @@
 import React from "react";
 import {DropdownButton, Dropdown} from 'react-bootstrap';
-import Jumbotron from './jumbotron';
-import CareerList from "./careerList";
 
 class Filter extends React.Component {
-  constructor(props){
-    super(props);
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  handleClick(selectedLocation) {
-    this.setState({selectedLocation : selectedLocation})
-  }
-
-
   render() {
     const { locations } = this.props.locations;
     return (
@@ -39,7 +27,7 @@ class Filter extends React.Component {
             <DropdownButton id="dropdown-basic-button" title="Location">
               {
                 locations.map(location => (
-                <Dropdown.Item key={location.id} onClick={() => this.handleClick(location) }>{location.name}</Dropdown.Item>
+                <Dropdown.Item key={location.id} onClick={() => this.props.onLocationSelect(location) }>{location.name}</Dropdown.Item>
                 ))
               }
             </DropdownButton>
@@ -47,8 +35,6 @@ class Filter extends React.Component {
           </ul>
         </div>
       </nav>
-      <Jumbotron selectedLocation={this.state}/>
-      <CareerList />
       </>
     );
   }
